@@ -1,5 +1,6 @@
 // https://stackoverflow.com/a/950146
-// survey-html-form
+// survey-text-form
+// html-button-response
 // audio-keyboard-response
 // html-keyboard-response
 // instructions
@@ -20,7 +21,7 @@ function loadScript(url, callback) {
     head.appendChild(script);
 }
 loadScript(
-    "https://cdn.jsdelivr.net/gh/denisfitz57/HopeSpellingTask@main/SpellingTask.js",
+    "https://cdn.jsdelivr.net/gh/denisfitz57/HopeNowWordRep@main/NonWordRep.js",
     function() {
         console.log("Here!");
     }
