@@ -9,8 +9,22 @@ function shuffle(array) {
     }
 }
 
-var pracsequence = ["06a", "07a", "08a"];
-var sequence = ["09a", "10a", "11a", "12a", "13a", "14a", "15a", "16a"];
+var pracsequence = [
+    "2syll_chovag_Doll_v2.wav",
+    "2syll_noytouf_Doll_v2.wav",
+    "2syll_tayvok_Doll_v2.wav",
+    "2syll_vacheyp_Doll_v2.wav",
+];
+var sequence = [
+    "3syll_cheenoytaub_Doll_v2.wav",
+    "3syll_doytauvab_Doll_v2.wav",
+    "3syll_nighchoyvaeb_Doll_v2.wav",
+    "3syll_tayvoychig_Doll_v2.wav",
+    "4syll_davonoychig_Doll_v2.wav",
+    "4syll_nachoytowvub_Doll_v2.wav",
+    "4syll_tavachinighg_Doll_v2.wav",
+    "4syll_veytachaidoub_Doll_v2.wav",
+];
 //shuffle(sequence);
 var experimentTimeline = [];
 
