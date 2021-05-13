@@ -28,14 +28,17 @@ var sequence = [
 //shuffle(sequence);
 var experimentTimeline = [];
 
+var urlvar = jsPsych.data.urlVariables();
 var getIdTrial = {
     type: "survey-text",
     questions: [{
         prompt: "Enter the ID you have been given.",
+        placeholder: urlvar.subjectID,
     }, ],
     preamble: "",
     button_label: "Click to enter ID",
 };
+
 experimentTimeline = experimentTimeline.concat(getIdTrial);
 
 var pracstartScreen = {
@@ -131,4 +134,7 @@ experimentTimeline = experimentTimeline.concat(sequenceFinishedText);
 jsPsych.init({
     timeline: experimentTimeline,
     preload: sequence,
+    on_finish: function() {
+        window.close();
+    },
 });
